@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF35D5FE272EFF6A002B5BB8 /* FinancialAccountingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF35D5FD272EFF6A002B5BB8 /* FinancialAccountingApp.swift */; };
+		AF35D600272EFF6A002B5BB8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF35D5FF272EFF6A002B5BB8 /* ContentView.swift */; };
+		AF35D602272EFF6C002B5BB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF35D601272EFF6C002B5BB8 /* Assets.xcassets */; };
+		AF35D605272EFF6C002B5BB8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF35D604272EFF6C002B5BB8 /* Preview Assets.xcassets */; };
+		AF35D607272EFF6C002B5BB8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF35D606272EFF6C002B5BB8 /* Persistence.swift */; };
+		AF35D60A272EFF6C002B5BB8 /* FinancialAccounting.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF35D608272EFF6C002B5BB8 /* FinancialAccounting.xcdatamodeld */; };
+		AF35D614272EFF6C002B5BB8 /* FinancialAccountingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF35D613272EFF6C002B5BB8 /* FinancialAccountingTests.swift */; };
+		AF35D61E272EFF6C002B5BB8 /* FinancialAccountingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF35D61D272EFF6C002B5BB8 /* FinancialAccountingUITests.swift */; };
+		AF35D620272EFF6C002B5BB8 /* FinancialAccountingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF35D61F272EFF6C002B5BB8 /* FinancialAccountingUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF35D610272EFF6C002B5BB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF35D5F2272EFF6A002B5BB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF35D5F9272EFF6A002B5BB8;
+			remoteInfo = FinancialAccounting;
+		};
+		AF35D61A272EFF6C002B5BB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF35D5F2272EFF6A002B5BB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF35D5F9272EFF6A002B5BB8;
+			remoteInfo = FinancialAccounting;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF35D5FA272EFF6A002B5BB8 /* FinancialAccounting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinancialAccounting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF35D5FD272EFF6A002B5BB8 /* FinancialAccountingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancialAccountingApp.swift; sourceTree = "<group>"; };
+		AF35D5FF272EFF6A002B5BB8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AF35D601272EFF6C002B5BB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF35D604272EFF6C002B5BB8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AF35D606272EFF6C002B5BB8 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		AF35D609272EFF6C002B5BB8 /* FinancialAccounting.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FinancialAccounting.xcdatamodel; sourceTree = "<group>"; };
+		AF35D60F272EFF6C002B5BB8 /* FinancialAccountingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinancialAccountingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF35D613272EFF6C002B5BB8 /* FinancialAccountingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancialAccountingTests.swift; sourceTree = "<group>"; };
+		AF35D619272EFF6C002B5BB8 /* FinancialAccountingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinancialAccountingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF35D61D272EFF6C002B5BB8 /* FinancialAccountingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancialAccountingUITests.swift; sourceTree = "<group>"; };
+		AF35D61F272EFF6C002B5BB8 /* FinancialAccountingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancialAccountingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF35D5F7272EFF6A002B5BB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF35D60C272EFF6C002B5BB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF35D616272EFF6C002B5BB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF35D5F1272EFF6A002B5BB8 = {
+			isa = PBXGroup;
+			children = (
+				AF35D5FC272EFF6A002B5BB8 /* FinancialAccounting */,
+				AF35D612272EFF6C002B5BB8 /* FinancialAccountingTests */,
+				AF35D61C272EFF6C002B5BB8 /* FinancialAccountingUITests */,
+				AF35D5FB272EFF6A002B5BB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF35D5FB272EFF6A002B5BB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF35D5FA272EFF6A002B5BB8 /* FinancialAccounting.app */,
+				AF35D60F272EFF6C002B5BB8 /* FinancialAccountingTests.xctest */,
+				AF35D619272EFF6C002B5BB8 /* FinancialAccountingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF35D5FC272EFF6A002B5BB8 /* FinancialAccounting */ = {
+			isa = PBXGroup;
+			children = (
+				AF35D5FD272EFF6A002B5BB8 /* FinancialAccountingApp.swift */,
+				AF35D5FF272EFF6A002B5BB8 /* ContentView.swift */,
+				AF35D601272EFF6C002B5BB8 /* Assets.xcassets */,
+				AF35D606272EFF6C002B5BB8 /* Persistence.swift */,
+				AF35D608272EFF6C002B5BB8 /* FinancialAccounting.xcdatamodeld */,
+				AF35D603272EFF6C002B5BB8 /* Preview Content */,
+			);
+			path = FinancialAccounting;
+			sourceTree = "<group>";
+		};
+		AF35D603272EFF6C002B5BB8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AF35D604272EFF6C002B5BB8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AF35D612272EFF6C002B5BB8 /* FinancialAccountingTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF35D613272EFF6C002B5BB8 /* FinancialAccountingTests.swift */,
+			);
+			path = FinancialAccountingTests;
+			sourceTree = "<group>";
+		};
+		AF35D61C272EFF6C002B5BB8 /* FinancialAccountingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF35D61D272EFF6C002B5BB8 /* FinancialAccountingUITests.swift */,
+				AF35D61F272EFF6C002B5BB8 /* FinancialAccountingUITestsLaunchTests.swift */,
+			);
+			path = FinancialAccountingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF35D5F9272EFF6A002B5BB8 /* FinancialAccounting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF35D623272EFF6C002B5BB8 /* Build configuration list for PBXNativeTarget "FinancialAccounting" */;
+			buildPhases = (
+				AF35D5F6272EFF6A002B5BB8 /* Sources */,
+				AF35D5F7272EFF6A002B5BB8 /* Frameworks */,
+				AF35D5F8272EFF6A002B5BB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinancialAccounting;
+			productName = FinancialAccounting;
+			productReference = AF35D5FA272EFF6A002B5BB8 /* FinancialAccounting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF35D60E272EFF6C002B5BB8 /* FinancialAccountingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF35D626272EFF6C002B5BB8 /* Build configuration list for PBXNativeTarget "FinancialAccountingTests" */;
+			buildPhases = (
+				AF35D60B272EFF6C002B5BB8 /* Sources */,
+				AF35D60C272EFF6C002B5BB8 /* Frameworks */,
+				AF35D60D272EFF6C002B5BB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF35D611272EFF6C002B5BB8 /* PBXTargetDependency */,
+			);
+			name = FinancialAccountingTests;
+			productName = FinancialAccountingTests;
+			productReference = AF35D60F272EFF6C002B5BB8 /* FinancialAccountingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF35D618272EFF6C002B5BB8 /* FinancialAccountingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF35D629272EFF6C002B5BB8 /* Build configuration list for PBXNativeTarget "FinancialAccountingUITests" */;
+			buildPhases = (
+				AF35D615272EFF6C002B5BB8 /* Sources */,
+				AF35D616272EFF6C002B5BB8 /* Frameworks */,
+				AF35D617272EFF6C002B5BB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF35D61B272EFF6C002B5BB8 /* PBXTargetDependency */,
+			);
+			name = FinancialAccountingUITests;
+			productName = FinancialAccountingUITests;
+			productReference = AF35D619272EFF6C002B5BB8 /* FinancialAccountingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF35D5F2272EFF6A002B5BB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					AF35D5F9272EFF6A002B5BB8 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					AF35D60E272EFF6C002B5BB8 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = AF35D5F9272EFF6A002B5BB8;
+					};
+					AF35D618272EFF6C002B5BB8 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = AF35D5F9272EFF6A002B5BB8;
+					};
+				};
+			};
+			buildConfigurationList = AF35D5F5272EFF6A002B5BB8 /* Build configuration list for PBXProject "FinancialAccounting" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF35D5F1272EFF6A002B5BB8;
+			productRefGroup = AF35D5FB272EFF6A002B5BB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF35D5F9272EFF6A002B5BB8 /* FinancialAccounting */,
+				AF35D60E272EFF6C002B5BB8 /* FinancialAccountingTests */,
+				AF35D618272EFF6C002B5BB8 /* FinancialAccountingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF35D5F8272EFF6A002B5BB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF35D605272EFF6C002B5BB8 /* Preview Assets.xcassets in Resources */,
+				AF35D602272EFF6C002B5BB8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF35D60D272EFF6C002B5BB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF35D617272EFF6C002B5BB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF35D5F6272EFF6A002B5BB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF35D60A272EFF6C002B5BB8 /* FinancialAccounting.xcdatamodeld in Sources */,
+				AF35D607272EFF6C002B5BB8 /* Persistence.swift in Sources */,
+				AF35D600272EFF6A002B5BB8 /* ContentView.swift in Sources */,
+				AF35D5FE272EFF6A002B5BB8 /* FinancialAccountingApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF35D60B272EFF6C002B5BB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF35D614272EFF6C002B5BB8 /* FinancialAccountingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF35D615272EFF6C002B5BB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF35D61E272EFF6C002B5BB8 /* FinancialAccountingUITests.swift in Sources */,
+				AF35D620272EFF6C002B5BB8 /* FinancialAccountingUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF35D611272EFF6C002B5BB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF35D5F9272EFF6A002B5BB8 /* FinancialAccounting */;
+			targetProxy = AF35D610272EFF6C002B5BB8 /* PBXContainerItemProxy */;
+		};
+		AF35D61B272EFF6C002B5BB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF35D5F9272EFF6A002B5BB8 /* FinancialAccounting */;
+			targetProxy = AF35D61A272EFF6C002B5BB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AF35D621272EFF6C002B5BB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF35D622272EFF6C002B5BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF35D624272EFF6C002B5BB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FinancialAccounting/Preview Content\"";
+				DEVELOPMENT_TEAM = D6D5J987L4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = athon.FinancialAccounting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF35D625272EFF6C002B5BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FinancialAccounting/Preview Content\"";
+				DEVELOPMENT_TEAM = D6D5J987L4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = athon.FinancialAccounting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF35D627272EFF6C002B5BB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D6D5J987L4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = athon.FinancialAccountingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinancialAccounting.app/FinancialAccounting";
+			};
+			name = Debug;
+		};
+		AF35D628272EFF6C002B5BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D6D5J987L4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = athon.FinancialAccountingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinancialAccounting.app/FinancialAccounting";
+			};
+			name = Release;
+		};
+		AF35D62A272EFF6C002B5BB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D6D5J987L4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = athon.FinancialAccountingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FinancialAccounting;
+			};
+			name = Debug;
+		};
+		AF35D62B272EFF6C002B5BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D6D5J987L4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = athon.FinancialAccountingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FinancialAccounting;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF35D5F5272EFF6A002B5BB8 /* Build configuration list for PBXProject "FinancialAccounting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF35D621272EFF6C002B5BB8 /* Debug */,
+				AF35D622272EFF6C002B5BB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF35D623272EFF6C002B5BB8 /* Build configuration list for PBXNativeTarget "FinancialAccounting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF35D624272EFF6C002B5BB8 /* Debug */,
+				AF35D625272EFF6C002B5BB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF35D626272EFF6C002B5BB8 /* Build configuration list for PBXNativeTarget "FinancialAccountingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF35D627272EFF6C002B5BB8 /* Debug */,
+				AF35D628272EFF6C002B5BB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF35D629272EFF6C002B5BB8 /* Build configuration list for PBXNativeTarget "FinancialAccountingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF35D62A272EFF6C002B5BB8 /* Debug */,
+				AF35D62B272EFF6C002B5BB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AF35D608272EFF6C002B5BB8 /* FinancialAccounting.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AF35D609272EFF6C002B5BB8 /* FinancialAccounting.xcdatamodel */,
+			);
+			currentVersion = AF35D609272EFF6C002B5BB8 /* FinancialAccounting.xcdatamodel */;
+			path = FinancialAccounting.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AF35D5F2272EFF6A002B5BB8 /* Project object */;
+}
